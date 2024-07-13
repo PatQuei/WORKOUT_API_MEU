@@ -1,0 +1,10 @@
+version: '4.32.0'
+services:
+  db:
+    image: postgres:11-alpine
+    environment:
+      POSTGRES_PASSWORD: work
+      POSTGRES_USER: work
+      POSTGRES_DB: work
+    ports:
+      - "5432:5432"
